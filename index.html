@@ -1,6 +1,14 @@
 <h1>js learning</h1>
 
+<div id=box>123</div>
+
+
 <script>
+function $(s){
+	return document.getElementById(s)
+}
+
+
 //window
 var a=1;
 b=2;
@@ -12,5 +20,7 @@ function add(x,y){
 }
 
 console.log( add(4,5) )
+ele=$('box')
+ele.setAttribute("style","color:white; background:blue; padding:10px;");
 
 </script>
